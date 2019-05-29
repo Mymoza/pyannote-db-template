@@ -94,11 +94,11 @@ class MyProtocol1(SpeakerDiarizationProtocol):
 # this is where we define each protocol for this database.
 # without this, `pyannote.database.get_protocol` won't be able to find them...
 
-class MyDatabase(Database):
-    """MyDatabase database"""
+class Marie(Database):
+    """Marie database"""
 
     def __init__(self, preprocessors={}, **kwargs):
-        super(MyDatabase, self).__init__(preprocessors=preprocessors, **kwargs)
+        super(Marie, self).__init__(preprocessors=preprocessors, **kwargs)
 
         # register the first protocol: it will be known as
         # MyDatabase.SpeakerDiarization.MyFirstProtocol
