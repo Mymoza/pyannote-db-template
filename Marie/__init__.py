@@ -103,4 +103,4 @@ class Marie(Database):
         # register the first protocol: it will be known as
         # MyDatabase.SpeakerDiarization.MyFirstProtocol
         self.register_protocol(
-            'SpeakerDiarization', 'MyFirstProtocol', MyProtocol1)
+            'SpeakerDiarization', 'MixHeadset', MyProtocol1)
